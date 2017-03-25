@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+}
+#main{
+    background-color: #ECECEC;
+	margin: auto;
+	width: 45%;
+}
+
+/*Nav Bar Styling*/
+nav{
+	position: relative;
+	border-bottom: 1px solid #554E4B;
+	height: 100px;
+	margin: 0 10px;
+}
+nav div{
+	display: inline-block;
+}
+#logo{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ padding-bottom: 25px;
+}
+nav img{
+	height: 25px;
+	vertical-align: text-bottom;
+}
+nav p{
+	display: inline-block;
+	font-family: 'Cookie', cursive;
+	font-size: 30px;
+	color: #554E4B;
+	margin: 0;
+}
+#menu{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 30px;
+	padding-right: 20px;
+	width: 50%;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+nav li{
+	display: inline;
+	font-family: 'Lato', sans-serif;
+	padding: 0 2%;
+}
+nav a{
+	text-decoration: none;
+	color: #554E4B;
+	font-size: 15px;
+}
+
+
+
+
+
