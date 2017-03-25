@@ -4,7 +4,7 @@ body{
 #main{
     background-color: #ECECEC;
 	margin: auto;
-	width: 45%;
+	width: 47%;
 }
 
 /*Nav Bar Styling*/
@@ -57,7 +57,132 @@ nav a{
 	color: #554E4B;
 	font-size: 15px;
 }
+/*Header Styling*/
+header{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: #554E4B;
+	font-size: 10px;
+	margin-top: 45px;
+}
+header h1{
+	font-size: 20px;
+	letter-spacing:1px;
+	margin:10px 0;
+}
+header h2{
+	font-size: 15px;
+	margin: 10px 0;
+}
+header span{
+	color: #EA9CA7;
+}
+header img{
+	width: 95%;
+	border-radius: 2%;
+	margin: 40px 0;
+}
 
+/*About section styling*/
+#about{
+	display: table;
+}
+.aboutrow{
+	display: table-row;
+}
+.aboutcell{
+	display: table-cell;
+}
+.aboutcell h3{
+	text-align: center;
+	color: #EA9CA7;
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+	margin: 20px 0;
+	padding: 0;
+}
+.aboutcell p{
+	color: #554E4B;
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 20px 0;
+	padding: 0 5%;
+}
+
+/*Buckets section styling*/
+.buckets{
+  margin: 0 7%;
+}
+.bucketsrow {
+	margin: 15px 0;
+}
+.bucketscell{
+	position: relative;
+	width: 140px;
+	height: 160px;
+	display: inline-block;s
+	border-radius: 10px;
+	margin: 0 10px 0 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #95928B;
+}
+.bucketstext {
+	background-color: #FFFFFF;
+	margin: 0;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;	
+}
+.bucketstext h4{
+	margin: 0;
+	color: #554E4B;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	padding: 5px 0 0 6px;
+}
+.bucketstext p{
+	margin: 0;
+	color: #EA9CA7;
+	font-family: 'Cookie', cursive;
+	padding: 0 0 5px 6px;	
+}
+#cell1{
+	background-image: url("../img/bridge.jpg");
+}
+#cell2{
+	background-image: url("../img/sailboat.jpg");
+}
+#cell3{
+	background-image: url("../img/zebra.jpg");
+}
+#cell4{
+	background-image: url("../img/fishing.jpg");
+}
+#cell5{
+	background-image: url("../img/barbedwire.jpg");
+}
+#cell6{
+	background-image: url("../img/runner.jpg");
+}
+#cell7{
+	background-image: url("../img/crystalturtle.jpg");
+}
+#cell8{
+	background-image: url("../img/shrine.jpg");
+}
+#cell9{
+	background-image: url("../img/berrybush.jpg");
+}
+#cell10{
+	background-image: url("../img/firedancer.jpg");
+}
 
 
 
