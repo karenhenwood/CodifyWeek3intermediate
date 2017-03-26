@@ -122,7 +122,7 @@ header img{
 	position: relative;
 	width: 140px;
 	height: 160px;
-	display: inline-block;s
+	display: inline-block;
 	border-radius: 10px;
 	margin: 0 10px 0 0;
 	background-repeat: no-repeat;
@@ -184,6 +184,83 @@ header img{
 	background-image: url("../img/firedancer.jpg");
 }
 
+/*Thanks section styling*/
+#thanks{
+	text-align: center;
+	color: #EA9CA7;
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+	padding: 35px 0;
+}
+
+/*Footer styling*/
+footer{
+	width: 100%;
+	display: table;
+	background-color: #2D2D2D;
+}
+#contact{
+	display: table-cell;
+	padding-left: 10px;
+}
+#contact p{
+	font-family: 'Cookie', cursive;
+	font-size: 25px;
+	color: #EA9CA7;
+	margin: 40px 0 5px 0;
+}
+input{
+	display: block;
+	padding: 3px;
+	border: none;
+	border-radius: 1px;
+	margin: 7px 0 7px 0;
+	width: 95%;
+}
+textarea{
+	display: block;
+	padding: 3px;
+	border: none;
+	border-radius: 1px;
+	margin: 7px 0 7px 0;
+	width: 95%;
+}
+button{
+	margin-bottom: 20px;
+    padding: 5px 15px 5px 1px;
+    border: none;
+    background-color: #2D2D2D;
+    color: #A4A6A7;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    
+}
+button:focus{
+	outline-color: #0E0E0E;
+}
+#socialmedia{
+	display: table-cell;
+	vertical-align: middle;
+}
+#socialmedia ul{
+	text-align: right;
+	margin: 0;
+	padding: 0 10px 0 0;
+}
+#socialmedia li{
+	display: inline-block;
+	padding: 0 8px;
+}
+#socialmedia i{
+	background-color: #EA9CA7;
+	color: #2D2D2D;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 15px;
+	padding: 5px 5px;
+}
 
 
 
